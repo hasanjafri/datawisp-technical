@@ -1,0 +1,181 @@
+[
+  {
+    "id": "enS0tw06+RUReM",
+    "name": "MySQL Database",
+    "owner": "Moritz",
+    "tables": [
+      {
+        "name": "Users",
+        "columns": [
+          "id",
+          "name",
+          "email",
+          "created_at",
+          "login_info",
+          "account_type",
+          "country",
+          "language"
+        ],
+        "num_rows": 27123
+      },
+      {
+        "name": "Sheets",
+        "columns": [
+          "id",
+          "user_id",
+          "share_state",
+          "payload",
+          "created_at",
+          "name",
+          "last_edited"
+        ],
+        "num_rows": 301052
+      },
+      {
+        "name": "Teams",
+        "columns": [
+          "id",
+          "name",
+          "billing_info"
+        ],
+        "num_rows": 506
+      },
+      {
+        "name": "TeamUsers",
+        "columns": [
+          "user_id",
+          "team_id"
+        ],
+        "num_rows": 56992
+      }
+    ]
+  },
+  {
+    "id": "W7pnfdPEL0u/zk",
+    "name": "A random JSON Document",
+    "owner": "Noah",
+    "tables": [
+      {
+        "name": "Root",
+        "columns": [
+          "_datawisp_id"
+        ],
+        "num_rows": 1,
+        "tables": [
+          {
+            "name": "Competitors",
+            "columns": [
+              "name",
+              "website",
+              "estimated_users",
+              "can_join",
+              "dataset_size",
+              "can_do_complicated_queries",
+              "complexity",
+              "_datawisp_id"
+            ],
+            "num_rows": 12,
+            "tables": [
+              {
+                "name": "Features",
+                "columns": [
+                  "Competitors_datawisp_id",
+                  "name",
+                  "is_avaialable",
+                  "limitations"
+                ],
+                "num_rows": 120
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FhRBB3uqYFN+Dl",
+    "name": "Sample Data",
+    "owner": "Datawisp",
+    "tables": [
+      {
+        "name": "Players",
+        "columns": [
+          "id",
+          "name",
+          "country",
+          "birthdate",
+          "email"
+        ],
+        "num_rows": 123
+      },
+      {
+        "name": "Microtransactions",
+        "columns": [
+          "playerid",
+          "when",
+          "amount_usd",
+          "itemid"
+        ],
+        "num_rows": 123
+      },
+      {
+        "name": "Sessions",
+        "columns": [
+          "playerid",
+          "when",
+          "duration_hours"
+        ],
+        "num_rows": 123
+      },
+      {
+        "name": "Game Events",
+        "columns": [
+          "playerid",
+          "when",
+          "event",
+          "heist"
+        ],
+        "num_rows": 123
+      },
+      {
+        "name": "RTS Matchups",
+        "columns": [
+          "id",
+          "player1_id",
+          "player2_id",
+          "player1_faction",
+          "player2_faction",
+          "winner",
+          "duration_minutes",
+          "when"
+        ],
+        "num_rows": 123
+      },
+      {
+        "name": "CS:GO Player Deaths",
+        "columns": [
+          "killer",
+          "weapon",
+          "timestamp",
+          "player",
+          "matchId",
+          "roundId"
+        ],
+        "num_rows": 123
+      },
+      {
+        "name": "Solscan Token Data",
+        "columns": [
+          "mint address",
+          "symbol",
+          "name",
+          "per token price ($)",
+          "decimals",
+          "smallest unit divisor",
+          "smallest unit price ($)"
+        ],
+        "num_rows": 123
+      }
+    ]
+  }
+]
